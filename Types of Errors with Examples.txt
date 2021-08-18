@@ -1,0 +1,190 @@
+Types of Error Exceptions in Python
+When an error occurs an exception is called, python will stop the execution of the program and generate an error message. The exception is handled by try: except: and sometimes the else: and finally: blocks.
+We are going to look at application of the try: and except: blocks due to the requirements of the question.
+
+It is important for us to understand that in a nutshell, the try and except blocks work in conjunction with the specific/specified errors, we highlighted above, and depending on which one (error)we are interested in catching. We have to implement it into the block.
+
+The syntax of the error Exception try and except blocks is as below;
+Syntax
+try:
+       # Some Code.... 
+except:
+       # optional block
+       # Handling of exception (if required)
+else:
+       # execute if no exception
+finally:
+      # Some code .....(always executed)
+
+Briefly the breakdown of the blocks and what they do is;
+•	First the try clause is executed i.e., the code between try and except clause. It checks the error in the block of code before it is executed. This block will test if the excepted error to occur.
+•	If there is no exception, then only try clause will run, except clause will not get executed.
+•	If any exception occurs, the try clause will be skipped and except clause will run. 
+•	Except: This is where you handle the error, or rather the except block handles the error, either by telling us about the specified error received or giving us a different message.
+•	If any exception occurs, but the except clause within the code doesn’t handle it, it is passed on to the outer try statements. If the exception is left unhandled, then the execution stops.
+•	A try statement can have more than one except clause.
+•	Finally: Finally block always gets executed either exception is generated or not, it executes the code.
+Examples of try:except blocks
+Example 1 of try:except blocks using ZeroDivisionError
+#Input#
+def goodxy(x, y):
+    print ( "Please enter x value" )
+    x = float ( input ( ) )
+    print ( "x is:" , x )
+    print ( "Please enter y value" )
+    y = float( input ( ) )
+    print ( "y is:" , y )
+try:
+    z = x/y
+except ZeroDivisionError:
+    print ("Sorry, your y is zero, we cannot divide by zero")
+#Output#
+#Testing with y not equal to zero#
+Please enter x value
+8
+x is: 8.0
+Please enter y value
+4
+y is: 4.0
+z is: 2.0
+
+The general syntax for the raise statement is as follows.
+Syntax
+raise [Exception [, args [, traceback]]]
+
+Example function with raise exception with our specific output message
+#Input#
+print("Enter a number n between 0 and 10:")
+n = int(input())
+print("You entered:", n)
+if n < 0:
+  raise Exception ("Sorry, no numbers below zero")
+ 
+#Output#
+Enter a number n between 0 and 10:
+-2
+You entered: -2
+Traceback (most recent call last):
+  File "<input>", line 5, in <module>
+Exception: Sorry, no numbers below zero
+ 
+
+Example function with raise exception with our Type Error message 
+#Input#
+print("Please enter a string:")
+x = str(input())
+print("x is:", x)
+if not type(x) is int:
+  raise TypeError("The input may be correct, but type int is allowed ")
+
+ 
+#Output#
+Please enter a string:
+hello
+x is: hello
+Traceback (most recent call last):
+  File "<input>", line 5, in <module>
+TypeError: The input may be correct, but type int is allowed
+ 
+
+#Output2#
+Please enter a string:
+10
+x is: 10
+Traceback (most recent call last):
+  File "<input>", line 5, in <module>
+TypeError: Only integers are allowed
+
+
+#Testing with y equals to zero#
+Please enter x value
+5
+x is: 5.0
+Please enter y value
+0
+y is: 0.0
+Sorry, your y is zero, we cannot divide by zero
+ 
+Example 2
+#Input#
+# Try: except: block using TypeError Exception#
+def sumof(x, y):
+print ( "Please enter string x:" )
+	x = str(input( ))
+	print ("x is:", x)
+	print ( "Please enter integer y:" )
+	y = int(input( ))
+	print ("y is:", y)
+	try :
+		z = x + y
+		print ("correct, x and y are of the same type, z is", z)
+	except TypeError:
+		print ("Input maybe of correct type, but x and y may have different data type")
+
+ 
+
+
+#Output1#
+##Using the correct string input for y and correct int input ##
+Please enter string x:
+4real
+x is: 4real
+Please enter integer y:
+4
+y is: 4
+Input maybe of correct type, but x and y may have different data type
+ 
+#Output2#
+##Using the strings for both x and y inputs##
+Please enter string x:
+4real
+x is: 4real
+Please enter integer y:
+yeah
+Traceback (most recent call last):
+  File "<input>", line 5, in <module>
+ValueError: invalid literal for int() with base 10: 'yeah'
+
+ 
+
+
+
+
+Example 3
+#Input#
+def divideagain(a , c):
+	print ( "Please enter string a:" )
+	a = str ( input ( ) )
+	print ( "a is:" , a )
+	print ( "Please enter string b:" )
+	b = str ( input ( ) )
+	print ( "b is:" , b )
+	try :
+		result = a // b
+		print ("correct the string is correct", result)
+	except TypeError :
+		print ( "Input is correct, but cannot divide the string input" )
+ 
+#Output1#
+Please enter string a:
+4real
+a is: 4real
+Please enter string b:
+4
+b is: 4
+Input is correct, but cannot divide the string input
+>>>
+ 
+#Output2#
+Please enter string a:
+real
+a is: real
+Please enter string b:
+real
+b is: real
+Input is correct, but cannot divide the string input
+>>>
+ 
+
+
+
