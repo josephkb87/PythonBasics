@@ -12,4 +12,14 @@ dictionary = {
     "key2": "value2",
 }
 booleans = True # Or False
+<<<<<<< Updated upstream
 none = None
+=======
+none = None
+
+###
+can_code = True
+
+if can_code:
+    print("You can code!")
+>>>>>>> Stashed changes
