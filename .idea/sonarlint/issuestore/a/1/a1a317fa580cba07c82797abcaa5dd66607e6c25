@@ -1,0 +1,14 @@
+
+jpython:S1192
+"RDefine a constant instead of duplicating this literal "Helvetica 12 bold" 6 times.(ùóœ¹
+_python:S2208"GImport only needed names or import the module and then use its members.(Ü¥¿Î
+upython:S116"YRename this field "conversionRateVar" to match the regular expression ^[_a-z][_a-z0-9]*$.(‘Þ•€ÿÿÿÿÿ
+qpython:S116"ZRename this field "convertedAmountVar" to match the regular expression ^[_a-z][_a-z0-9]*$.( Öçï
+qpython:S116"ZRename this field "amounttoConvertVar" to match the regular expression ^[_a-z][_a-z0-9]*$.(†ù‚Ò
+ypython:S117"bRename this local variable "btConvertedAmount" to match the regular expression ^[_a-z][a-z0-9_]*$.(¯ß•¦
+python:S117"cRename this local variable "lblConvertedAmount" to match the regular expression ^[_a-z][a-z0-9_]*$.(õ¥Ò…ýÿÿÿÿ
+Mpython:S1481"5Remove the unused local variable "btConvertedAmount".(¯ß•¦
+Spython:S1481"6Remove the unused local variable "lblConvertedAmount".(õ¥Ò…ýÿÿÿÿ
+Hpython:S1481"0Remove the unused local variable "btdelete_all".(áÞ€¤
+zpython:S117"cRename this local variable "convertedAmountVar" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÅÞ½´
+opython:S100"SRename method "ConvertedAmount" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÊÔ…Ðúÿÿÿÿ
