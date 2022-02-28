@@ -1,7 +1,7 @@
 #We will cover indentation basics in this#
 
 course = "Python 101"
-twitter = "@clydekingkid"
+twitter = "@user2"
 
 if course == "Python 101":
     # Our code can go in here#
