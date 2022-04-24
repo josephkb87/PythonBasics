@@ -17,5 +17,5 @@ I hope i am corrected where mistakes are made  and also collaborate, and learn m
  - Plots in MATLAB(Basic Plots and Graphs,axis, grid, bar,legending, titleing, xlabel, ylabel, zlabel,xlim, ylim, zlim, stem, subplot, Hold)
 
 
-# Reference Text 
+# Reference Text has been added as a pdf for usage.
 MATLAB - Programming with MATLAB for Beginners, A Practical Introduction To Programming And Problem Solving
