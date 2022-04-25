@@ -23,3 +23,17 @@ can_code = True
 if can_code:
     print("You can code!")
 >>>>>>> Stashed changes
+print("We will end here on datatypes")
+print("We will now look at integers as datatypes")
+
+#We will cover integers basics in this#
+
+course = "Python 101"
+twitter = "@clydekingkid"
+
+items = 4  # Integer
+price = 19.97  # Float
+total = items * price  # Multiplication
+print(total)
+
+print(1_000_000_000_000)
