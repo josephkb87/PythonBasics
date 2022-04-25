@@ -1,3 +1,4 @@
+
 #We will cover lists in this#
 course = "Python 101"
 twitter = "@clydekingkid"
