@@ -17,3 +17,4 @@ I hope i am corrected where mistakes are made  and also collaborate, and learn m
 - Making a Digital Clock.
 - Making a Currency Converter.
 - Making a Music App that plays mp3 music.
+- Making a Loan Calculator .
