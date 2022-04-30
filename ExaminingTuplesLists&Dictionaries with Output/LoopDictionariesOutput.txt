@@ -1,0 +1,14 @@
+{'Siemens': 'Google', 'Ericsson': 'Facebook', 'Alcatel': 'Intel', 'Nokia': 'IBM'}
+Original Dictionary is: {'name': 'Peter', 'last_name': 'Micheal', 'age': '35', 'job': 'Python Dev'}
+The new Dictionary is: {'name': 'John', 'last_name': 'Doe', 'age': 45, 'job': 'Full Stack Guru'}
+Original Dictionary is: {'a': 'e', 'b': 'f', 'c': 'g', 'd': 'h'}
+My enumerated Dictionary is: 0
+My enumerated Dictionary is: 1
+My enumerated Dictionary is: 2
+My enumerated Dictionary is: 3
+Our new  enumerated Dictionary is: (0, 'e') d
+Our new  enumerated Dictionary is: (1, 'f') d
+Our new  enumerated Dictionary is: (2, 'g') d
+Our new  enumerated Dictionary is: (3, 'h') d
+dict_items([('brand', 'Lamborghini'), ('model', 'Veyron'), ('year', 2018)])
+This marks the end of our conversation for now

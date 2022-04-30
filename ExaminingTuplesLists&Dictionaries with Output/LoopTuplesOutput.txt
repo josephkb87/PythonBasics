@@ -1,0 +1,15 @@
+apple
+banana
+cherry
+..
+(('RedRoses', 'January'), ('WhiteRoses', 'February'), ('BlueRoses', 'March'), ('PinkRoses', 'April'), ('YellowRoses', 'May'), ('BlackRoses', 'June'))
+..
+(('John', 'July'), ('Charles', 'August'), ('Mike', 'September'))
+..
+(0, 'Audi')
+(1, 'Benz')
+(2, 'Chevrolet')
+(3, 'Daimler')
+(4, 'EnzoFerari')
+..
+This marks the end of our conversation for now

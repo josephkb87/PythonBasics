@@ -1,0 +1,16 @@
+samsung
+nokia
+huawei
+..
+ChrisMartin 24
+BobMarley 85
+HusseinBolt 38
+.
+[(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e')]
+.
+Judd is at 1. position
+Simon is at 2. position
+John is at 3. position
+.
+This marks the end of our conversation for now
+>>>

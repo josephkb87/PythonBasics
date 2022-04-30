@@ -44,8 +44,8 @@ print("..........")
 
 ## Output
 [(0, 'a'), (2, 'b'), (3, 'c'), (4, 'd'), (5, 'e')]
-.
->>>
+
+
 
 ## Using the enumerate function ##
 #Input#
@@ -121,7 +121,7 @@ print(i)
 ## (1, 'Chevrolet')
 ## (2, 'Daimler')
 ##(3, 'EnzoFerari')
->>>
+
 
 
 ## Dictionaries are like what their name suggests - a dictionary, an unordered collection of data values, used to store data values, which unlike other Data Types that hold only single value as an element, holds key: value pair. you have an 'index' of words, and for each of them a definition.
@@ -143,7 +143,7 @@ print("......") #This separates our printouts#
 ## Output
 ##{'Siemens': 'Google', 'Ericsson': 'Facebook', 'Alcatel': 'Intel', 'Nokia': 'IBM'}
 
->>>
+
 
 #Making a dictionary out of two lists using zip and updating the dictionary values#
 fields = ['name', 'last_name', 'age', 'job']
@@ -159,7 +159,7 @@ print("......") #This separates our printouts#
 ## Original Dictionary is: {'name': 'Peter', 'last_name': 'Micheal', 'age': '34', 'job': 'Python Dev'}
 ## The new Dictionary is: {'name': 'John', 'last_name': 'Doe', 'age': 44, 'job': 'Full Stack Guru'}
 
->>>
+
 
 ## Using the enumerate method with the zip function#
 #Example0#
@@ -185,7 +185,7 @@ print("......") #This separates our printouts#
 ## Our new  enumerated Dictionary is: (1, 'g') 4
 ## Our new  enumerated Dictionary is: (2, 'h') 4
 
->>>
+
 
 ## Using the items method
 #Example0#
@@ -200,7 +200,7 @@ print('This marks the end of our conversation for now')
 ## Output
 ## dict_items([('brand', 'Lamborghini'), ('model', 'Veyron'), ('year', 2017)])
 
->>>
+
 
 ## Brief Difference Between Lists Tuples and Dictionaries
 
@@ -209,8 +209,8 @@ print('This marks the end of our conversation for now')
 ## List can be represented by []	Tuple can be represented by  ( )	Dictionary can be represent-ed by {}
 ## List allows duplicate elements	Tuple allows duplicate ele-ments	Set will not allow duplicate elements, but keys are not duplicated
 ## List can use nested among all	Tuple can use nested among all	Dictionary can use nested among all
-## Example 1 : [0, 2, 3, 4, 5]
-## Example 2 : (1, 2, 3, 4, 5)
+## Example 1 : [0, 2, 3, 4, 5]	
+## Example 2 : (1, 2, 3, 4, 5)	
 ## Example 3: {1, 2, 3, 4, 5}
 ## List can be created using list () function	Tuple can be created us-ing tuple () function.	Dictionary can be created us-ing dict () function.
 ## List is mutable i.e. we can make any changes in list.	Tuple is immutable i.e. we can-not make any changes in tuple	Dictionary is mutable. But Keys are not duplicated.
