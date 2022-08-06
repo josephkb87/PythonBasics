@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Application And Worked Examples/DataFrames using Spark SQL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonBasics" vcs="Git" />
   </component>
 </project>

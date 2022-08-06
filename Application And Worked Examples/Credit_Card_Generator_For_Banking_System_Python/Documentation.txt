@@ -1,0 +1,21 @@
+How it Works
+
+Our card details are randomly generated using the Luhn (MOD 10) algorithm. All real credit cards follow this algorithm, they have fixed prefixes and can be easily identified (i.e VISA cards always start with a '4'). If you want to learn more about how the Luhn checksum formula works then check out an indepth breakdown. To try our tool, simply select your card type from above and click the 'Generate' button.
+
+Credit Card Generator
+
+Our Credit Card Generator tool's primary purpose is for software testing and data verification purposes. Instead of using a real credit card, you can use our 100% valid credit cards to safely test your websites & apps. Using our card numbers means no money will be deducted from any account whenever an application is being tested. It allows you to validate all payment testing scenarios such as credit card number length, format, type, issuing network etc.
+
+Features
+
+    Generate thousands of fake / dummy credit card numbers & details using our free bulk generator tool.
+    Download card details in three formats: JSON, XML & CSV.
+    Each card is generated with completely random information including name, address, zipcode and country! (USA, India, United Kingdom + more)
+    All major card issuers supported including VISA, Mastercard, Discover & American Express.
+    Free credit card validation tool - simply paste in a credit card number and our tool will check the validity and card type.
+    Suitable for all forms of data testing and verification purposes such as Stripe & PayPal Payments.
+
+
+How it Works
+
+Our card details are randomly generated using the Luhn (MOD 10) algorithm. All real credit cards follow this algorithm, they have fixed prefixes and can be easily identified (i.e VISA cards always start with a '4'). If you want to learn more about how the Luhn checksum formula works then check out an indepth breakdown. To try our tool, simply select your card type from above and click the 'Generate' button.

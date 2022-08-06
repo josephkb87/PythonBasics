@@ -1,0 +1,53 @@
+ # In this example, We convert images to PDF using Python
+# In this example, we convert a png image to PDF using Python (for JPEG, use the file extension of ‘jpg’)
+
+pip install PIL # This will install the PIL package
+
+// Converting the image to PDF using Python
+
+from PIL import Image #  This imports Image From Pillow package
+
+image_0 = Image.open(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photos\view_1.png')
+im_0 = image_1.convert('RGB')
+im_0.save(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photos\view_1.pdf')
+
+# For our example, the PDF file will be stored under the same path where the original image is stored
+
+#   for a list of images we will store all of them in a single PDF file
+
+# Adding new image files
+image_0 = Image.open(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photosview_1.png')
+image_1 = Image.open(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photos\view_2.png')
+image_2 = Image.open(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photos\view_3.png')
+image_3 = Image.open(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photos\view_4.png')
+
+# performing the conversion
+
+im_0 = image_1.convert('RGB')
+im_1 = image_2.convert('RGB')
+im_2 = image_3.convert('RGB')
+im_3 = image_4.convert('RGB')
+
+# creating a new image_list (excluding the first image):
+
+image_list = [im_1, im_3, im_4]
+
+# applying the syntax to save the PDF (note the ‘im_0’ at the beginning):
+
+im_0.save(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photos\my_images.pdf', save_all=True, append_images=image_list)
+
+from PIL import Image
+
+image_0 = Image.open(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photos\view_1.png')
+image_1 = Image.open(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photos\view_2.png')
+image_2 = Image.open(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photos\view_3.png')
+image_3 = Image.open(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photos\view_4.png')
+
+im_0 = image_1.convert('RGB')
+im_1 = image_2.convert('RGB')
+im_2 = image_3.convert('RGB')
+im_3 = image_4.convert('RGB')
+
+image_list = [im_1, im_3, im_4]
+
+im_0.save(r'D:\source\repos\PythonProjects\PythonBasics\Application_&_Worked_Examples\Jpg_To_Pdf_Converter_Python\Photos\my_images.pdf', save_all=True, append_images=image_list)

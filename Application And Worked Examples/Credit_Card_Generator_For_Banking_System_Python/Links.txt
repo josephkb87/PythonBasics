@@ -1,0 +1,3 @@
+https://www.geeksforgeeks.org/luhn-algorithm/
+https://cardguru.io/credit-card-bin-checker
+https://cardguru.io/credit-card-validator

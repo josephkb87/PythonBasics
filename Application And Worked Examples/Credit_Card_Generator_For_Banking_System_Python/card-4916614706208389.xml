@@ -1,0 +1,12 @@
+<card>
+  <issuer>VISA</issuer>
+  <cardNumber>4916614706208389</cardNumber>
+  <expiryMonth>10</expiryMonth>
+  <expiryYear>2024</expiryYear>
+  <exp>10/2024</exp>
+  <cvv>930</cvv>
+  <name>Kareem Reichel</name>
+  <address>5966 Roselyn Plaza</address>
+  <country>Burkina Faso</country>
+  <zipcode>90803-0386</zipcode>
+</card>

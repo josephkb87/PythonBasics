@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PythonBasics.iml" filepath="$PROJECT_DIR$/.idea/PythonBasics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Python_Aero_Projects/Runge_Kutta_A_Better_ODE_System_integrator/.idea/Runge_Kutta_A_Better_ODE_System_integrator.iml" filepath="$PROJECT_DIR$/../Python_Aero_Projects/Runge_Kutta_A_Better_ODE_System_integrator/.idea/Runge_Kutta_A_Better_ODE_System_integrator.iml" />
     </modules>
   </component>
 </project>
