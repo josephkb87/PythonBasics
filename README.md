@@ -7,7 +7,7 @@
 <a href="https://linktr.ee/jungbasher87">My Socials</a>🌱
 <a href="https://github.com/josephkb87?tab=repositories"> My work </a>🌱
 <a href="https://github.com/josephkb87?tab=projects">My Projects</a>🌱
-<a href="https://github.com/josephkb87?tab=projects">If you can spare some Change,Sponsor Me</a>
+<a href="https://github.com/josephkb87?tab=projects">If you can, please Sponsor Me</a>
 </div>
 
 <div>
