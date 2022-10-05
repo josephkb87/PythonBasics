@@ -1,5 +1,5 @@
 
-Hi, 👋. Welcome to this PythonBasics.
+##   Hi, 👋. Welcome to this PythonBasics.
 
 <div>
 <a href="https://github.com/josephkb87/PythonBasics">About This PythonBasics Project</a>🌱
@@ -18,6 +18,7 @@ Hi, 👋. Welcome to this PythonBasics.
   <a href="https://www.buymeacoffee.com/josephkb87" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;"></a> 
 </div>
 
+<div>
 - If you can spare a few 💵:
 
   - [Buy me a coffee :coffee:](https://www.buymeacoffee.com/josephkb87) (one-time),
@@ -28,6 +29,7 @@ Hi, 👋. Welcome to this PythonBasics.
   - [Comment in the project's guestbook](https://github.com/josephkb87/Matlab_Octave/issues/99) :blush:,
   - Reach out on [Twitter](https://twitter.com/clydekingkid),
   - or [send a nice email my way](mailto:kiyinijoseph@gmail@gmail.com)!
+</div>
 
 ## This Python Basics Repo
 Covers some of the Python Language Basics covered at the elementary level.
@@ -41,10 +43,10 @@ I hope i am corrected where mistakes are made  and also collaborate, and learn m
 #### Starter Basics
 - These cover the application of python Starter Programming Basics
 
-#### OOP Basics
+### OOP Basics
 - These cover the application of Object Oriented Programming Basics
 
-#### Application and Worked Examples
+### Application and Worked Examples
 These cover the application of the Basics in the examples. Like;
  - Basic Commands & Syntax on datatpyes , comments indentation
  - Input, Output and Operators on Variables and types(Relational and logical operators)
@@ -52,7 +54,7 @@ These cover the application of the Basics in the examples. Like;
  - strings,integers lists Tuples Dictionaries and user input and slicing.
  
 
-### Application & Worked Examples include;
+## Application & Worked Examples include;
 - Making a Digital Clock.
 - Making a Currency Converter (Single/Multi Currency).
 - Making a Music App that plays mp3 music(offline).
