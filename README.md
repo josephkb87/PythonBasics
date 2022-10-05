@@ -2,7 +2,7 @@
 ##   Hi, 👋. Welcome to this PythonBasics.
 
 <div>
-<a href="https://github.com/josephkb87/PythonBasics">About This PythonBasics Project</a>🌱
+<a href="https://github.com/josephkb87/PythonBasics/tree/main/Application%20And%20Worked%20Examples">About This PythonBasics Project</a>🌱
 <a href="https://github.com/josephkb87/josephkb87">About Me.</a>🌱<a href="https://josephkb87.github.io">About Me</a>🌱 
 <a href="https://linktr.ee/jungbasher87">My Socials</a>🌱
 <a href="https://github.com/josephkb87?tab=repositories"> My work </a>🌱
