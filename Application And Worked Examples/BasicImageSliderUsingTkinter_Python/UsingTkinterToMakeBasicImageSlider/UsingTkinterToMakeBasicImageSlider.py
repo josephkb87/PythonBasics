@@ -1,5 +1,5 @@
 from itertools import cycle
-from tkinter as tk
+from tkinter import ttk
 
 class App(tk.Tk):
     def _init_(self,image_files,x,y,delay):
@@ -7,7 +7,7 @@ class App(tk.Tk):
         self.geometry('+ {}+ {}', format(x,y))
         self.delay = delay
         self.pictures = cycle((tk.PhotoImage(file= image), image))
-        for image in image_files)
+        for image in image_files
         self.pictures_display = tk.label(self)
         self.picture_display.pack()
 

@@ -4,6 +4,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Runge_Kutta_A_Better_ODE_System_integrator" />
+    <orderEntry type="module" module-name="Python_Aero_Projects" />
   </component>
 </module>
