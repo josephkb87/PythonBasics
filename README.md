@@ -35,11 +35,10 @@ These cover the application of the Basics in the examples. Like;
  
 
 ## <a href="https://github.com/josephkb87/PythonBasics/tree/main/Application%20And%20Worked%20Examples">Application & Worked Examples</a>;
-- Digital Clock.
-- Multiple Currency Converter
-- Music App that plays mp3 music().
-- Music App (offline & online)
-- Loan Calculator  
+- [DigitalClock](https://github.com/josephkb87/PythonBasics/tree/main/Application%20And%20Worked%20Examples/DigitalClock).
+- [Multiple Currency Converter](https://github.com/josephkb87/PythonBasics/tree/main/Application%20And%20Worked%20Examples/CurrencyConverter)
+- [Music App that plays mp3 music(offline & online)]()
+- [Loan Calculator](https://github.com/josephkb87/PythonBasics/blob/main/Application%20And%20Worked%20Examples/LoanCalculator/Loan%20Calculator%20for%20Banking%20System%202/LoanCalculator.py)  
 - Snake Game
 - Basic Image Slider (Tkinter)
 - Converter CSV to Excel 
@@ -56,7 +55,7 @@ These cover the application of the Basics in the examples. Like;
 Tell me you like this project or how it helped you out!
 
 ## Contribute
- [Comment in the project's guestbook](https://github.com/josephkb87/Matlab_Octave/issues/99) :blush:- or [send a nice email my way](mailto:kiyinijoseph@gmail@gmail.com)!
+ [Comment in the project's guestbook](https://github.com/josephkb87/Matlab_Octave/issues/99) :blush:- or [send a nice email my way](mailto:kiyinijoseph@gmail.com)!
 </div>
 
 
