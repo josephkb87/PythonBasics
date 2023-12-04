@@ -1,6 +1,8 @@
-## Lists, tuples, and dictionaries are used to store and organize the data in an efficient manner. They are also important in referencing the stored data of a long list of our information.
+## Lists, tuples, and dictionaries are used to store and organize the data in an efficient manner. 
+## They are also important in referencing the stored data of a long list of our information.
 
-## Lists are what they seem - a list of values. Each one of them is numbered, starting from zero. Lists are like tuples but are modifiable (or 'mutable'), therefore their values can be changed. Most of the time we use lists, not tuples, because we want to easily change the values of things if we need to. You can remove values from the list and add new values to the end.
+## Lists are what they seem - a list of values. Each one of them is numbered, starting from zero. 
+## Lists are like tuples but are modifiable (or 'mutable'), therefore their values can be changed. Most of the time we use lists, not tuples, because we want to easily change the values of things if we need to. You can remove values from the list and add new values to the end.
 ## In python, lists are applied in and used for.
 ## •	In JSON format
 ## •	for Array operations
@@ -157,8 +159,6 @@ print("......") #This separates our printouts#
 ## Original Dictionary is: {'name': 'Peter', 'last_name': 'Micheal', 'age': '34', 'job': 'Python Dev'}
 ## The new Dictionary is: {'name': 'John', 'last_name': 'Doe', 'age': 44, 'job': 'Full Stack Guru'}
 
-
-
 ## Using the enumerate method with the zip function#
 #Example0#
 ## Input
@@ -203,7 +203,7 @@ print('This marks the end of our conversation for now')
 ## Brief Difference Between Lists Tuples and Dictionaries
 
 ## List	Tuple	Dictionary
-## List is a non-homogeneous data struc-ture which stores the elements in sin-gle row and multiple rows and columns	Tuple is also a non-homogeneous data structure which stores single row and multiple rows and columns	Dictionary is also a non-homogeneous data structure which stores key value pairs
+## List is a non-homogeneous data structure which stores the elements in sin-gle row and multiple rows and column.Tuple is also a non-homogeneous data structure which stores single row and multiple rows and columns	Dictionary is also a non-homogeneous data structure which stores key value pairs
 ## List can be represented by []	Tuple can be represented by  ( )	Dictionary can be represent-ed by {}
 ## List allows duplicate elements	Tuple allows duplicate ele-ments	Set will not allow duplicate elements, but keys are not duplicated
 ## List can use nested among all	Tuple can use nested among all	Dictionary can use nested among all
