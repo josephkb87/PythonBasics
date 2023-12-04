@@ -1,3 +1,6 @@
+#We will cover datatypes basics in this#
+
+#We will cover Variables basics in this#
 """This is the first variable example"""
 course  = "PYTHHON Double H ON Purpose 101"
 print(course)
@@ -31,17 +34,13 @@ dictionary = {
     "key2": "value2",
 }
 booleans = True # Or False
-<<<<<<< Updated upstream
-none = None
-=======
 none = None
 
-###
 can_code = True
 
 if can_code:
     print("You can code!")
->>>>>>> Stashed changes
+
 print("We will end here on datatypes")
 print("We will now look at integers as datatypes")
 
